@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seção principal */
+main {
+    margin-top: 50px;
+    padding-bottom: 50px; /* Adiciona espaço para o rodapé */
+}
+
+.landing h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+.landing p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+}
+
+.landing ul {
+    margin: 20px 0;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+.qr-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.qr-section img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.qr-section p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    left: 0;        /* Alinha o rodapé à esquerda */
+    bottom: 0;      /* Alinha o rodapé à parte inferior */
+    width: 100%;    /* Faz o rodapé ocupar toda a largura da página */
+    z-index: 100;   /* Garante que o rodapé fique acima de outros elementos */
+}

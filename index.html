@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doe para Instituições de Crianças Carentes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Doe e Ajude Crianças Carentes</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="landing">
+            <h2>Bem-vindo à nossa plataforma de arrecadação!</h2>
+            <p>Nosso objetivo é arrecadar fundos para ajudar pessoas carentes em nossa comunidade. Cada valor doado é destinado a fornecer alimentos, cuidados médicos e suporte essencial para aqueles que mais precisam.</p>
+            <h3>Como Funciona:</h3>
+            <ul>
+                <li>Faça sua doação: Escolha um valor que deseja contribuir. Cada centavo conta!</li>
+                <li>Impacto Real: Compartilhamos atualizações sobre como suas doações estão ajudando a mudar vidas.</li>
+            </ul>
+            <h3>Por que Contribuir?</h3>
+            <p>Sua solidariedade pode fazer toda a diferença. Juntos, podemos criar um impacto positivo e inspirar outros a se unirem a essa causa.</p>
+            <p>Junte-se a nós e faça parte dessa mudança!</p>
+            <p>Se você quiser aparecer na apresentação do nosso trabalho, envie o comprovante de sua doação junto com uma mensagem para o número <strong>(11) 994427565</strong>. Isso nos ajudará a compartilhar os resultados e agradecermos sua contribuição de forma especial!</p>
+            <button id="doar-btn" class="btn-primary">Doe Agora!</button>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+
+        <section id="qr-code-section" class="qr-section" style="display: none;">
+            <h3>Use o QR Code abaixo para doar via PIX</h3>
+            <img src="imagens/QRcodepix_cpf.jpg" alt="QR Code para doação">
+            <p>Chave PIX: <span id="pix-key" onclick="copyPixKey()" style="cursor: pointer; color: #4CAF50; text-decoration: underline;">46758343880</span></p>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Enrique e Caio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
